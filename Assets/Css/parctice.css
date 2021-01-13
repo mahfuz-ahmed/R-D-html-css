@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 100px;
+    background-position: center;
+}
+
+.name{
+
+    font-size: 25px;
+
+}
+
+
+.main{
+    width: 600px;
+    margin: auto;
+}
+
+.title{
+
+    margin-left: 450px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.user{
+    position: relative;
+    left: 120px;
+    top: -25px;
+    line-height: 25px;
+    width: 350px;
+    padding: 0 22px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    border-style: inset;
+
+}
+
+.address{
+    position: relative;
+    left: 120px;
+    top: -25px;
+    line-height: 25px;
+    width: 350px;
+    padding: 0 22px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+
+}
+
+.option{
+    position: relative;
+    left: 120px;
+    top: -25px;
+    height:28px;
+    width: 400px;
+    padding: 0 22px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    
+
+}
+
+.image{
+    position: relative;
+    border-radius: 10px;
+    background: #EFEFEF;
+    width: 390px;
+    height: 25px;
+    padding-top: 8px;
+    padding-left: 10px;
+    top: -25PX;
+    left: 120px;
+    border-color: brown;
+
+}
+
+.submit{
+    /* margin-left: 700px; */
+    background-color: rgb(98, 148, 48);
+    font-size: 20px;
+    color: cornsilk;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.reset{
+    /* margin-left: 0px; */
+
+    background-color: rgb(196, 141, 24);
+    font-size: 20px;
+    color: cornsilk;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button{
+    margin-left: 59%;
+}
+
+.link{
+    margin-left: 59%;
+    margin-top: 50px;
+
+}
+

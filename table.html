@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/Css/table.css">
+</head>
+<body>
+    
+     <input class="search"type="text"name="Search"placeholder="Enter Name To Search">
+    
+
+    <table class="main">
+			
+        <thead>
+            <tr>
+                <th class="head">Name</th>
+                <th class="head">Address</th>
+                <th class="head">Rating</th>
+                <th class="head">Picture</th>
+                <th class="head" colspan="5">Action</th>
+                <!-- <th>Action</th> -->
+            </tr>
+        </thead>
+
+
+        <tbody>
+           <tr>
+                <td class="data">Lalbagh Fort</td>
+                <td class="data">Lalbagh</td>
+                <td class="data">1</td>
+                <td class="data"><img src="Assets/Image/tree.jpg" alt="" height="100px" width="100px"></img></td>
+                <td class="data" colspan="5">
+                    <Button class="update">Update</Button>
+                    <Button class="delete">Delete</Button>
+                </td>
+                <!-- <td class="data"><Button class="delete">Delete</Button></td> -->
+            </tr>
+
+            <tr>
+                <td class="data_second">Mahasthan Gor</td>
+                <td class="data_second">Comilla</td>
+                <td class="data_second">1</td>
+                <td class="data_second"><img src="Assets/Image/tree.jpg" alt="" height="100px" width="100px"></img></td>
+                <td class="data_second" colspan="5">
+                    <Button class="update">Update</Button>
+                    <Button class="delete">Delete</Button>
+                </td>
+                <!-- <td class="data_second"><Button class="delete">Delete</Button></td> -->
+            </tr>
+       </tbody>
+    </table>
+
+    <button class="button">Create New Tourist Place</button>
+    
+</body>
+</html>
